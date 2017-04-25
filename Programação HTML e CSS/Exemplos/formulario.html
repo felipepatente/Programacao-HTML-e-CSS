@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+
+<body>
+
+
+	<!-- type = "text" = Mostra uma caixa para digitar
+	     name = "text1" = Util na hora de programar
+	     value = "Felipe" = Já coloca a caixa de texto com este valor
+	     size = "60px" = Coloca a caixa de texto com tamanho de 60px
+	     maxlength = "10" = O usuario só vai poder digitar no maximo 10 caractere
+	     autofocus = Tova vez que a pagina for atualizada o foco do ponteiro vai parar na caixa
+	 -->
+	<form name="form1" action="valida.php">
+		<input type = "text" name = "text1" value="Felipe" size="60px" maxlength="10" autofocus>
+		<br>
+	</form>
+
+
+
+	<form name="form1" action="valida.php">
+		<!-- type = "password" = Coloca uma mascara quando o usuario estiver digitando -->
+		<input type = "password"  name = "text2"><br>
+
+		<!-- É uma caixa de texto maior que a anterior da para controlar o tamanho pelos atributos "cols" e "rows" -->
+		<textarea name = "Descricao" cols = "20" rows = "10"></textarea><br>
+
+		<!-- type = "submit" = Cria um botão e value = "Cadastrar" = vai estar escrito no botão -->
+		<input type = "submit" value="Cadastrar">
+		<br><br>
+		<!-- type = "checkbox" = Cria um checkbox que pode ser marcado varias vezes -->
+		<input type = "checkbox" name = "checkbox1"> TV
+		<input type = "checkbox" name = "checkbox1"> Cinema
+		<input type = "checkbox" name = "checkbox1"> Música
+		<input type = "checkbox" name = "checkbox1"> Teatro
+		<br><br>
+
+		<!-- type = "radio" = Cria um radio que pode ser marcado um unica vez -->
+		<input type = "radio" name = "checkbox1"> Casado
+		<input type = "radio" name = "checkbox1"> Solteiro
+		<input type = "radio" name = "checkbox1"> Divorciado
+		<input type = "radio" name = "checkbox1"> Viuvo
+	</form>
+
+</body>
+
+</html>

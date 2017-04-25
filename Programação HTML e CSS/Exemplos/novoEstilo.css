@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topo{
+	width: 900px;
+	height: 200px;
+	background: red;
+}
+
+#topo h1 a{
+	color: white;
+	text-decoration: none;
+}
